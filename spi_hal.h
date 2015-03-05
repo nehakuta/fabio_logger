@@ -8,6 +8,9 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include "result.h"
+#include "spi_hal.h"
+
+typedef void* spi_handle_t;
 
 #define CS_SET              1
 #define CS_CLEAR_AFTER      2

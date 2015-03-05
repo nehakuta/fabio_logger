@@ -29,9 +29,8 @@ enum result_code {
 	RES_HW_ERROR,			/**< A hardware error was detected. */
 	RES_OUT_OF_MEM,			/**< Out of memory. This will be returned by a function if a memory allocation fails. */
 	RES_WARNING,			/**< This is not an error, just a warning */
-	RES_BAD_RESPONSE		/**< A bad response from a communication partner was received. */
-	RES_INV_ARG,			/**< An invalid argument was given to a function. */
-
+	RES_BAD_RESPONSE,		/**< A bad response from a communication partner was received. */
+	RES_INV_ARG			/**< An invalid argument was given to a function. */
 };
 
 #endif

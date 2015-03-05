@@ -3,6 +3,7 @@
 #include "result.h"
 #include "spi_hal.h"
 
+
 /**
  * Write data to a SPI slave and discard incoming data
  *
